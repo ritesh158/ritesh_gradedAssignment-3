@@ -1,0 +1,86 @@
+body {
+    color: black;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heading {
+    margin-bottom: 20px;
+    font-size: 3em;
+    color: black;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .timer, .errors,
+  .accuracy, .cpm, .wpm {
+    background-color: rgb(170, 212, 85);
+    height: 50px;
+    width: 60px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20%;
+    box-shadow: black 5px 8px 5px;
+  }
+  
+  .cpm, .wpm  {
+    display: none;
+  }
+  
+  .header_text {
+    text-transform: uppercase;
+    font-size: 0.5em;
+    font-weight: 800;
+  }
+  
+  .current_time, .current_errors,
+  .current_accuracy, .current_cpm,
+  .current_wpm {
+    font-size: 2em;
+  }
+  
+  .input_text {
+    background-color: rgb(170, 212, 85);
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: black 5px 8px 5px;
+  }
+  
+  .input_area {
+    background-color: palegoldenrod;
+    height: 25px;
+    width: 70%;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+  }
+  
+  .incorrect_char {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  .correct_char {
+    color: darkgreen;
+  }
+  
+  .restart_btn {
+    display: none;
+    background-color: rgb(46, 146, 136);
+    font-size: 1.5em;
+    padding: 10px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+  }
